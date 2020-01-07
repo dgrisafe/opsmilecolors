@@ -32,7 +32,7 @@ opsmile_palettes <- list(
 
   hot   = get_colors_opsmile("darkred", "lightred", "orange", "yellow", "missing"),
 
-  rainbow = get_colors_opsmile("darkred", "lightred", "orange", "yellow", "lightblue", "darkblue"),
+  rainbow = get_colors_opsmile("missing", "darkred", "lightred", "orange", "yellow", "lightblue", "darkblue"),
 
   yesno_dark = get_colors_opsmile("darkblue", "darkred", "missing"),
 

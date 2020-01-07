@@ -28,15 +28,17 @@ get_colors_opsmile <- function(...) {
 opsmile_palettes <- list(
   main  = get_colors_opsmile("yellow", "orange", "lightred", "darkred", "lightblue", "darkblue"),
 
-  cool  = get_colors_opsmile("lightblue", "darkblue"),
+  cool  = get_colors_opsmile("darkblue", "lightblue", "missing"),
 
-  hot   = get_colors_opsmile("yellow", "orange", "lightred", "darkred"),
+  hot   = get_colors_opsmile("darkred", "lightred", "orange", "yellow", "missing"),
 
   rainbow = get_colors_opsmile("darkred", "lightred", "orange", "yellow", "lightblue", "darkblue"),
 
   yesno_dark = get_colors_opsmile("darkblue", "darkred", "missing"),
 
-  yesno_light = get_colors_opsmile("lightblue", "lightred", "missing")
+  yesno_light = get_colors_opsmile("lightblue", "lightred", "missing"),
+
+  stoplight = get_colors_opsmile("darkblue", "yellow", "darkred", "missing")
 )
 
 # Return function to interpolate a OpSmile color palette

@@ -9,7 +9,8 @@ colors_opsmile <- c(
   lightred = "#fc4e2a",
   darkred = "#800026",
   lightblue = "#bdd7e7",
-  darkblue= "#2171b5"
+  darkblue = "#2171b5",
+  missing = "#808080"
 )
 
 # function to extract OpSmile colors as hex codes
@@ -33,9 +34,9 @@ opsmile_palettes <- list(
 
   rainbow = get_colors_opsmile("darkred", "lightred", "orange", "yellow", "lightblue", "darkblue"),
 
-  yesno_dark = get_colors_opsmile("darkblue", "darkred"),
+  yesno_dark = get_colors_opsmile("darkblue", "darkred", "missing"),
 
-  yesno_light = get_colors_opsmile("lightblue", "lightred")
+  yesno_light = get_colors_opsmile("lightblue", "lightred", "missing")
 )
 
 # Return function to interpolate a OpSmile color palette

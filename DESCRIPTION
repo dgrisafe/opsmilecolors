@@ -1,11 +1,11 @@
 Package: opsmilecolors
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Color Identity for Operation Smile Reports
 Version: 0.1.0
 Author: Dom Grisafe
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: Dom Grisafe <dgrisafe@users.noreply.github.com>
+Description: Defines colors for Operation Smile reports.
+    The colors are organized into pallets that are useful for plots.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

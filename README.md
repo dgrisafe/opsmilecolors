@@ -6,8 +6,21 @@ These functions were extrapolated from a [blog post](https://drsimonj.svbtle.com
 
 ## Installation
 
-To load this colors package, you'll need to download this package directly from this GitHub. In order to do this, you'll have to first download the devtools package.
+To load this colors package, you'll need to download this package directly from this GitHub. In order to do this, you'll have to first download the devtools package from CRAN, then load the devtools library, then install the opsmilecolors package from GitHub.
 
 ```r
+# install devtools from CRAN
 install.packages("devtools")
+
+# load devtools
+library(devtools)
+
+# install opsmilecolors from GitHub
+install_github("dgrisafe/opsmilecolors")
+```
+
+Now you should have the opsmilecolors package on your computer, and you can load it just like any other R package.
+
+```r
+library(opsmilecolors)
 ```

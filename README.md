@@ -29,9 +29,3 @@ Now you should have the opsmilecolors package on your computer, and you can load
 # load opsmilecolors
 library(opsmilecolors)
 ```
-
-## Visualize Colors
-
-```{r}
-opsmile_palettes
-```

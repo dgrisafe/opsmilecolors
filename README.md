@@ -32,3 +32,6 @@ library(opsmilecolors)
 
 ## Visualize Colors
 
+```r
+opsmile_palettes
+```

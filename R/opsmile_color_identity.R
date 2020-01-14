@@ -28,7 +28,7 @@ get_colors_opsmile <- function(...) {
 opsmile_palettes <- list(
   main  = get_colors_opsmile("yellow", "orange", "lightred", "darkred", "lightblue", "darkblue"),
 
-  cool  = get_colors_opsmile("darkblue", "lightblue", "missing"),
+  cool  = get_colors_opsmile("darkblue", "lightblue", "yellow", "orange", "missing"),
 
   hot   = get_colors_opsmile("darkred", "lightred", "orange", "yellow", "missing"),
 
